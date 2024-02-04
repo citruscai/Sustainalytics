@@ -1,3 +1,5 @@
+chmod +x start.sh
+
 cd frontend
 npm install
 npm start &
