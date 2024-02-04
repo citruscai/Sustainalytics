@@ -10,7 +10,7 @@ from extensions import db, migrate  # Assuming you've moved db and migrate to ex
 load_dotenv()
 
 def create_app():
-    app = Flask(__name__, static_folder='build', static_url_path='')
+    app = Flask(__name__, static_folder='../frontend/build', static_url_path='/')
     CORS(app)
 
     api = Api(app, version='1.0', title='My API', description='A Simple API', doc='/docs')
@@ -30,14 +30,9 @@ def create_app():
     api.add_namespace(users_api, path='/api/users')
 
     
-    @app.route('/', defaults={'path': ''})
-    @app.route('/<path:path>')
-    def serve(path):
-        if path != "" and os.path.exists(app.static_folder + '/' + path):
-            return send_from_directory(app.static_folder, path)
-        else:
-            return send_from_directory(app.static_folder, 'index.html')
-
+    @app.route('/')
+    def index():
+        return app.send_static_file('index.html')
     return app
 
 if __name__ == '__main__':
