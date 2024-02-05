@@ -5,12 +5,12 @@ from flask_jwt_extended import JWTManager
 from dotenv import load_dotenv
 import os
 
-from extensions import db, migrate  # Assuming you've moved db and migrate to extensions.py
+from extensions import db, migrate  
 
 load_dotenv()
 
 def create_app():
-    app = Flask(__name__, static_folder='../frontend/build', static_url_path='/')
+    app = Flask(__name__)
     CORS(app)
 
     api = Api(app, version='1.0', title='My API', description='A Simple API', doc='/docs')
@@ -29,12 +29,8 @@ def create_app():
     from routes.users import api as users_api
     api.add_namespace(users_api, path='/api/users')
 
-    
-    @app.route('/')
-    def index():
-        return app.send_static_file('index.html')
-    return app
+    return app  
 
 if __name__ == '__main__':
-    app = create_app()
-    app.run(host='localhost')
+    app = create_app()  
+    app.run(host='localhost') 
