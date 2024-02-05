@@ -1,27 +1,3 @@
-from extensions import db
-
-from werkzeug.security import generate_password_hash, check_password_hash
-
-class User (db.Model):
-    id = db.Column(db.Integer(),primary_key=True)
-    username = db.Column(db.String(25),nullable = False,unique = True)
-    email = db.Column(db.String(80),nullable = False)
-    password = db.Column(db.Text(),nullable=False)
-
-    def __repr__(self):
-        return f"<User{self.username}>"
-    
-    def set_password(self,password):
-        self.password_hash = generate_password_hash(password)
-
-
-    def check_password(self,password):
-        return check_password_hash(self.password_hash,password)
-    
-    def save(self):
-        db.session.add(self)
-        db.session.commit()
-
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:836cb9347caacfe8c6a21134f31d98f4b083e4325eb0b038f1316c3f2e2f189a
+size 738
