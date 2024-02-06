@@ -17,8 +17,9 @@ Once the folder is cloned, you will need to go cd into the directory of the clon
 **NOTE: YOU NEED TO SET UP AN .env FILE IN BACKEND FOLDER WITH DATABASE URL AND SECRET KEY FOR JWT MANAGER, IF YOURE MY GROUP MEMBER I WILL GIVE YOU IT JUST ASK ME, IF YOU'RE NOT YOU CAN LOOK UP ON HOW TO MAKE YOUR OWN**
 1. in second window run command ```cd backend``` of the folder
 2. run command ```python -m venv venv```
-3. run ```pip install -r requirements.txt```
-4. then run ```python app.py```
+3. run ```venv\Scripts\activate```
+5. run ```pip install -r requirements.txt```
+6. then run ```python app.py```
 
    All done! now you can go to localhost:3000 to view website :)
 
