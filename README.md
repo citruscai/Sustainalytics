@@ -20,4 +20,6 @@ Once the folder is cloned, you will need to go cd into the directory of the clon
 3. run ```pip install -r requirements.txt```
 4. then run ```python app.py```
 
+   All done! now you can go to localhost:3000 to view website :)
+
    
