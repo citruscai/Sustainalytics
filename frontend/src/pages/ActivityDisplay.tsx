@@ -35,7 +35,7 @@ const ActivityDisplayPage: React.FC = () => {
   if (error) return <div className="text-center text-red-500 mt-10"><p>Error: {error}</p></div>;
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 animate-bounce">
       <h1 className="text-2xl font-bold text-indigo-600 mb-6">Random Activity</h1>
       {activity && (
         <div className="bg-white shadow-lg rounded-lg p-6 max-w-lg w-full">
