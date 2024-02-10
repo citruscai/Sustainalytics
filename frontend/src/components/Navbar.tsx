@@ -33,8 +33,15 @@ const Navbar = () => {
                 <Link to="/" className="text-black hover:text-blue-300">Hi {username}</Link>
               </li>
               <li>
+              <Link to="/activity" className="text-black hover:text-blue-300">Activity Api</Link>
+              </li>
+              <li>
+              <Link to="/rec" className="text-black hover:text-blue-300">Reccomender</Link>
+              </li>
+              <li>
                 <button onClick={handleLogout} className="text-black hover:text-blue-300">Logout</button>
               </li>
+              
             </>
           ) : (
             <>

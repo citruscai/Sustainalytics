@@ -7,6 +7,10 @@ import SignupPage from './pages/SignupPage';
 import LoginPage from './pages/LoginPage';
 import LandingPage from './pages/LandingPage';
 import ActivityDisplayPage from './pages/ActivityDisplay';
+import CropRecommender from './pages/Recommend';
+import Recommend from './pages/Recommend';
+import LookUp from './pages/LookUp';
+
 
 function App() {
   const [message, setMessage] = useState('');
@@ -21,6 +25,8 @@ function App() {
           <Route path="/" element={<LandingPage/>}/>
           <Route path="/activity" element={<ActivityDisplayPage/>}/>
           <Route path="/home" element={<LandingPage />} />
+          <Route path="/rec" element={<Recommend/>}/>
+          <Route path="/lookup" element={<LookUp/>}/>
         </Routes>
       </div>
     </Router>
