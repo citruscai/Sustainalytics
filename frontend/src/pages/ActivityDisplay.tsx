@@ -35,10 +35,10 @@ const ActivityDisplayPage: React.FC = () => {
   if (error) return <div className="text-center text-red-500 mt-10"><p>Error: {error}</p></div>;
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 animate-bounce">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <h1 className="text-2xl font-bold text-indigo-600 mb-6">Random Activity</h1>
       {activity && (
-        <div className="bg-white shadow-lg rounded-lg p-6 max-w-lg w-full">
+        <div className="bg-white shadow-lg rounded-lg p-6 max-w-lg w-full  animate-slide-in-left">
           <p className="text-lg"><strong>Activity:</strong> {activity.activity}</p>
           <p className="text-md text-gray-700"><strong>Type:</strong> {activity.type}</p>
           <p className="text-md text-gray-700"><strong>Participants:</strong> {activity.participants}</p>
