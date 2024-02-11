@@ -17,7 +17,7 @@ const Navbar = () => {
   }, [isAuthenticated, username]);
 
   return (
-    <nav className="bg-beige-800 p-4 shadow-md">
+    <nav className="bg-blue-200 p-4 shadow-md">
       <div className="container mx-auto flex items-center justify-between">
         
         <div></div>
@@ -33,10 +33,10 @@ const Navbar = () => {
                 <Link to="/" className="text-black hover:text-blue-300">Hi {username}</Link>
               </li>
               <li>
-              <Link to="/map" className="text-black hover:text-blue-300">Locations </Link>
+                <Link to="/map" className="text-black hover:text-blue-300">Locations </Link>
               </li>
               <li>
-              <Link to="/countries" className="text-black hover:text-blue-300">Country Sustainbility Metrics</Link>
+                <Link to="/countries" className="text-black hover:text-blue-300">Country Sustainbility Metrics</Link>
               </li>
               <li>
                 <button onClick={handleLogout} className="text-black hover:text-blue-300">Logout</button>
@@ -47,10 +47,14 @@ const Navbar = () => {
           ) : (
             <>
               <li>
-                <Link to="/signup" className="text-black hover:text-blue-300">Sign Up</Link>
+                <Link to="/signup" className="text-black hover:text-blue-300">
+                  <button className="bg-pastel-green text-white px-4 py-2 rounded">Sign Up</button>
+                </Link>
               </li>
               <li>
-                <Link to="/login" className="text-black hover:text-blue-300">Login</Link>
+                <Link to="/login" className="text-black hover:text-blue-300">
+                  <button className="bg-pastel-green text-white px-4 py-2 rounded">Login</button>
+                </Link>
               </li>
             </>
           )}
