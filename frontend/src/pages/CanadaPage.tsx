@@ -12,6 +12,7 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js';
+import CanadaWasteData from '../components/CanadaWasteData';
 
 ChartJS.register(
     CategoryScale,
@@ -34,6 +35,9 @@ const CanadaPage: React.FC = () => {
         </div>
         <div className="w-1/2">
           <Doughnut data={waterUsageData} />
+        </div>
+        <div className="w-1/2">
+          <CanadaWasteData/>
         </div>
       </div>
       <div className="flex flex-col min-h-screen">

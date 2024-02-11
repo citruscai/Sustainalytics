@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Bar } from 'react-chartjs-2';
-import { wasteDataByYear } from '../data/USemissionsdata'; 
+import { wasteDataByYear } from '../data/CAemissionsdata'; 
 
-const UsWasteData: React.FC = () => {
+const CanadaWasteData: React.FC = () => {
   const [selectedYear, setSelectedYear] = useState<number>(new Date().getFullYear()); 
 
   const filteredData = wasteDataByYear.find((data) => data.year === selectedYear);
@@ -22,7 +22,7 @@ const UsWasteData: React.FC = () => {
 
   return (
     <div>
-      <h1 className="text-center mb-6">ConocoPhillips USA Waste Metrics</h1>
+      <h1 className="text-center mb-6">ConocoPhillips Canada Waste Metrics</h1>
       <div className="flex justify-center mb-6">
         <select value={selectedYear} onChange={(e) => setSelectedYear(parseInt(e.target.value, 10))} className="p-2 border rounded">
           <option value={2022}>2022</option>
@@ -39,4 +39,4 @@ const UsWasteData: React.FC = () => {
   );
 };
 
-export default UsWasteData;
+export default CanadaWasteData;

@@ -40,14 +40,15 @@ const LoginPage: React.FC = () => {
       setErrorMessage('Login Failed')
     }
   };
-  //console.log(`Authentication State Updated: isAuthenticated=${isLoggedIn}, username=${username}`);
+ 
   if (isAuthenticated) {
     return <Navigate to="/map" />;
   }
 
   return (
-    
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-100">
+    <>
+   <nav className="bg-blue-200 p-4 shadow-md"> 
+   </nav>
       {errorMessage && (
       <Stack sx={{ width: '100%' }} spacing={2}>
         <Alert severity="error">
@@ -91,7 +92,7 @@ const LoginPage: React.FC = () => {
           </div>
         </form>
       </div>
-    </div>
+    </>
   );
 };
 
