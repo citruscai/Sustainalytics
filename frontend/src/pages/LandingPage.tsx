@@ -4,8 +4,8 @@ import sustainabilityAnimation from '../images/EarthCare.json';
 
 const LandingPage: React.FC = () => {
     return (
-        <div className="text-center mt-12">
-            <h1 className="text-4xl font-bold">Welcome</h1>
+        <div className="text-center mt-12" style={{ backgroundColor: '#f9f3d8' }}>
+            <h1 className="text-4xl font-bold" style={{ fontFamily: 'Inter' }}>Welcome!</h1>
             <div className="flex justify-center items-center">
             <Player
                 src={sustainabilityAnimation}
