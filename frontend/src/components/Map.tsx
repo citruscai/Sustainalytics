@@ -17,7 +17,7 @@ type MapProps = {
 
 const Map: React.FC<MapProps> = ({ locations }) => {
   return (
-    <MapContainer center={[51.505, -0.09]} zoom={2} style={{ height: '400px', width: '100%' }}>
+    <MapContainer center={[30.505, -10.5]} zoom={3} style={{ height: '400px', width: '100%' }}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
