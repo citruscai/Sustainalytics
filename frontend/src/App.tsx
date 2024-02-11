@@ -10,6 +10,13 @@ import ActivityDisplayPage from './pages/ActivityDisplay';
 import CropRecommender from './pages/Recommend';
 import Recommend from './pages/Recommend';
 import LookUp from './pages/LookUp';
+import UsPage from './pages/UsPage';
+import CanadaPage from './pages/CanadaPage';
+import NorwayUkPage from './pages/NorwayUkPage';
+import AustraliaPage from './pages/AustraliaPage';
+import DataPage from './pages/DataPage';
+import MapPage from './pages/MapPage';
+
 
 
 function App() {
@@ -27,6 +34,13 @@ function App() {
           <Route path="/home" element={<LandingPage />} />
           <Route path="/rec" element={<Recommend/>}/>
           <Route path="/lookup" element={<LookUp/>}/>
+          <Route path="/uspage" element={<UsPage/>}/>
+          <Route path="/canadapage" element={<CanadaPage/>}/>
+          <Route path="/norwayukpage" element={<NorwayUkPage/>}/>
+          <Route path="/australiapage" element={<AustraliaPage/>}/>
+          <Route path='/data' element={<DataPage/>}/>
+          <Route path='/map' element={<MapPage/>}/>
+          
         </Routes>
       </div>
     </Router>
