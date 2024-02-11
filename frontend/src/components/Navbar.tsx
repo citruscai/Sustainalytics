@@ -17,7 +17,7 @@ const Navbar = () => {
   }, [isAuthenticated, username]);
 
   return (
-    <nav className="bg-beige-800 p-4 shadow-md">
+    <nav className="bg-custom-nav p-4 shadow-md">
       <div className="container mx-auto flex items-center justify-between">
         
         <div></div>
@@ -46,10 +46,10 @@ const Navbar = () => {
           ) : (
             <>
               <li>
-                <Link to="/signup" className="text-black hover:text-blue-300">Sign Up</Link>
+                <Link to="/signup" className="bg-custom-green hover:bg-custom-green-dark text-white font-bold py-2 px-4 rounded">Sign Up</Link>
               </li>
               <li>
-                <Link to="/login" className="text-black hover:text-blue-300">Login</Link>
+                <Link to="/login" className="bg-custom-green hover:bg-custom-green-dark text-white font-bold py-2 px-4 rounded">Login</Link>
               </li>
             </>
           )}
