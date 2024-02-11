@@ -26,7 +26,7 @@ const locations = [
       lng: -102.07963776868668,
       name: "ConocoPhillips Midland",
       data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies2.
-      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems3.
+      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems.
       Engaging with local stakeholders, including communities, landowners, and regulators, to understand their values and interests, and contributing to economic and social opportunities4.
       Supporting safer communities in the Permian Basin through education, road safety, healthcare, housing and workforce development initiatives.`
     },
@@ -46,7 +46,7 @@ const locations = [
       name: "ConocoPhillips Colombia",
       data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies2.
       Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems3.
-      Engaging with local stakeholders, including communities, landowners, and regulators, to understand their values and interests, and contributing to economic and social opportunities4.
+      Engaging with local stakeholders, including communities, landowners, and regulators, to understand their values and interests, and contributing to economic and social opportunities.
       Implementing a Reconciliation Action Plan to promote respect, relationships, and opportunities for Indigenous peoples.`
     },
     {
@@ -54,8 +54,8 @@ const locations = [
       lng: 19.9354,
       name: "ConocoPhillips Libya",
       data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies2.
-      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems3.
-      Engaging with local stakeholders, including communities, landowners, and regulators, to understand their values and interests, and contributing to economic and social opportunities4.
+      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems.
+      Engaging with local stakeholders, including communities, landowners, and regulators, to understand their values and interests, and contributing to economic and social opportunities.
       Implementing a Reconciliation Action Plan to promote respect, relationships, and opportunities for Indigenous peoples.`
     },
     {
@@ -80,7 +80,7 @@ const locations = [
       lat: 39.8674,
       lng: 116.4883,
       name: "ConocoPhillips China",
-      data: `Conservation: ConocoPhillips China has supported various projects to protect the environment and biodiversity, such as vegetation restoration, public eco-education, crane and wetland conservation23.
+      data: `Conservation: ConocoPhillips China has supported various projects to protect the environment and biodiversity, such as vegetation restoration, public eco-education, crane and wetland conservation.
       Education: ConocoPhillips China has invested in education for underprivileged children, youth innovation in oil and gas, and scholarships for students in energy-related fields.
       Health: ConocoPhillips China has partnered with local not-for-profit organizations to provide medical care and surgery for children with congenital heart disease.
       Disaster Relief: ConocoPhillips China has donated funds and supplies to support the relief and recovery efforts of natural disasters, such as earthquakes, floods, and landslides.`

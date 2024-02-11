@@ -42,7 +42,7 @@ const LoginPage: React.FC = () => {
   };
   //console.log(`Authentication State Updated: isAuthenticated=${isLoggedIn}, username=${username}`);
   if (isAuthenticated) {
-    return <Navigate to="/home" />;
+    return <Navigate to="/map" />;
   }
 
   return (

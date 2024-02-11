@@ -33,10 +33,10 @@ const Navbar = () => {
                 <Link to="/" className="text-black hover:text-blue-300">Hi {username}</Link>
               </li>
               <li>
-              <Link to="/map" className="text-black hover:text-blue-300">Map</Link>
+              <Link to="/map" className="text-black hover:text-blue-300">Locations </Link>
               </li>
               <li>
-              <Link to="/countries" className="text-black hover:text-blue-300">Reccomender</Link>
+              <Link to="/countries" className="text-black hover:text-blue-300">Country Sustainbility Metrics</Link>
               </li>
               <li>
                 <button onClick={handleLogout} className="text-black hover:text-blue-300">Logout</button>
