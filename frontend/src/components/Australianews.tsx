@@ -26,7 +26,7 @@ const AustraliaNews: React.FC = () => {
   
         try {
           const response = await axios.request(options);
-          setArticles(response.data.articles || []); // Assuming the API response structure includes an `articles` array
+          setArticles(response.data.articles || []); 
         } catch (error) {
           console.error('Error fetching news:', error);
         }

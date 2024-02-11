@@ -43,3 +43,9 @@ export const emissionsData = {
     ],
   };
   
+ 
+export const wasteDataByYear = [
+  { year: 2020, hazardousWaste: 0, nonHazardousWaste: 94400, recycledWaste: 98800 },
+  { year: 2021, hazardousWaste: 0, nonHazardousWaste: 151200, recycledWaste: 334800 },
+  { year: 2022, hazardousWaste:23, nonHazardousWaste: 197546, recycledWaste: 252483 },
+];

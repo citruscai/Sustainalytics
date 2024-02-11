@@ -11,7 +11,8 @@ import {
   Legend,
 } from 'chart.js';
 import Usnews from '../components/USnews';
-import { emissionsData, waterUsageData } from '../data/USemissionsdata';
+import { emissionsData, waterUsageData,wasteDataByYear } from '../data/USemissionsdata';
+import UsWasteData from '../components/USWasteData';
 
 ChartJS.register(
   CategoryScale,
@@ -34,9 +35,15 @@ const UsPage: React.FC = () => {
         <div className="w-1/2">
           <Doughnut data={waterUsageData} />
         </div>
+        <div className="w-1/2">
+          <UsWasteData/>
+        </div>
       </div>
+      <div className='container'>
       <div className="flex flex-col min-h-screen">
+        <h1 className="text-center mb-6">Concophillips USA Sustainbility News Tracker</h1>
         <Usnews />
+      </div>
       </div>
     </div>
   );
