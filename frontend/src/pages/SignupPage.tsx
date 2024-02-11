@@ -59,10 +59,10 @@ const [errorMessage, setErrorMessage] = useState('');
   
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-100">
-      <div className="max-w-md w-full space-y-8 bg-white rounded-lg shadow-md p-6">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-green-50">
+      <div className="max-w-md w-full space-y-8 f97316 rounded-lg shadow-md p-6 bg-green-100">
         <div>
-          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign up for an account</h2>
+          <h2 className="mt-6 text-center text-3xl font-serif italic text-gray-900 bg-green-100">Sign up for an account</h2>
         </div>
         {errorMessage && (
         <Stack sx={{ width: '100%' }} spacing={2}>
@@ -146,14 +146,14 @@ const [errorMessage, setErrorMessage] = useState('');
           <div>
             <button
               type="submit"
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               Sign Up
             </button>
           </div>
         </form>
         <div className="text-sm text-center">
-          Already have an account? <Link to="/login" className="font-medium text-indigo-600 hover:text-indigo-500">Login here</Link>
+          Already have an account? <Link to="/login" className="font-medium text-green-600 hover:text-green-600">Login here</Link>
         </div>
       </div>
     </div>

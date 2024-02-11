@@ -47,7 +47,8 @@ const LoginPage: React.FC = () => {
 
   return (
     
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-100">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-green-50">
+      
       {errorMessage && (
       <Stack sx={{ width: '100%' }} spacing={2}>
         <Alert severity="error">
@@ -57,10 +58,13 @@ const LoginPage: React.FC = () => {
       </Stack>
     )}
 
-      <div className="max-w-md w-full bg-white rounded-lg shadow-md p-8">
+      <div className="max-w-md w-full bg-green-100 rounded-lg shadow-md p-8">
         <form className="space-y-6" onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="username" className="text-sm font-medium text-gray-700">Username</label>
+          <label htmlFor = "Login" className = "text-3xl font-serif text-black text-center">Login Portal</label>
+          </div>
+          <div>
+          <label htmlFor="username" className="text-sm font-medium text-gray-700">Username</label>
             <input
               type="text"
               id="username"
@@ -82,12 +86,12 @@ const LoginPage: React.FC = () => {
             />
           </div>
           <div>
-            <button type="submit" className="w-full px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700">
+            <button type="submit" className="w-full px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-500 focus:outline-none focus:bg-indigo-700">
               Log In
             </button>
           </div>
-          <div className="text-sm text-center">
-            Don't have an account? <Link to="/signup" className="text-indigo-600 hover:text-indigo-500">Register here</Link>
+          <div className="text-sm text-center font serif">
+            Don't have an account? <Link to="/signup" className="text-green-600 hover:text-green-600">Register here</Link>
           </div>
         </form>
       </div>
