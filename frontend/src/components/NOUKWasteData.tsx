@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Bar } from 'react-chartjs-2';
-import { wasteDataByYear } from '../data/CAemissionsdata'; 
+import { wasteDataByYear } from '../data/NOUKemissionsdata'; 
 
-const CanadaWasteData: React.FC = () => {
+const NOUKWasteData: React.FC = () => {
   const [selectedYear, setSelectedYear] = useState<number>(2022); 
 
   const filteredData = wasteDataByYear.find((data) => data.year === selectedYear);
@@ -39,4 +39,4 @@ const CanadaWasteData: React.FC = () => {
   );
 };
 
-export default CanadaWasteData;
+export default NOUKWasteData;

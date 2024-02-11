@@ -3,7 +3,7 @@ import { Bar } from 'react-chartjs-2';
 import { wasteDataByYear } from '../data/USemissionsdata'; 
 
 const UsWasteData: React.FC = () => {
-  const [selectedYear, setSelectedYear] = useState<number>(new Date().getFullYear()); 
+  const [selectedYear, setSelectedYear] = useState<number>(2022); 
 
   const filteredData = wasteDataByYear.find((data) => data.year === selectedYear);
 

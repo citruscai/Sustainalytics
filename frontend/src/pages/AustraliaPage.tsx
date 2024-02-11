@@ -12,6 +12,7 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js';
+import AustralianWasteData from '../components/AustralianWasteData';
 ChartJS.register(
     CategoryScale,
     LinearScale,
@@ -34,7 +35,11 @@ const AustraliaPage: React.FC = () => {
       <div className="w-1/2">
         <Doughnut data={waterUsageData} />
       </div>
+      <div className="w-1/2">
+          <AustralianWasteData/>
+        </div>
     </div>
+
     <div className="flex flex-col min-h-screen">
         <h1>News Tracker:</h1>
       <AustraliaNews />

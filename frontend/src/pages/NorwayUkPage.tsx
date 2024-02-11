@@ -12,6 +12,7 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js';
+import NOUKWasteData from '../components/NOUKWasteData';
 ChartJS.register(
     CategoryScale,
     LinearScale,
@@ -33,6 +34,9 @@ const NorwayUkPage: React.FC = () => {
       </div>
       <div className="w-1/2">
         <Doughnut data={waterUsageData} />
+      </div>
+      <div className="flex flex-col min-h-screen">
+        <NOUKWasteData/>
       </div>
     </div>
     <div className="flex flex-col min-h-screen">
