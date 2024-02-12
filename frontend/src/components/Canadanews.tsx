@@ -19,7 +19,7 @@ const CanadaNews: React.FC = () => {
               publisher: 'https://www.theglobeandmail.com/,https://www.thestar.com/,https://www.cbc.ca/,'
             },
             headers: {
-              'X-RapidAPI-Key': '2a74062f3cmsh3a5187c270e88d2p1c461cjsne42e916569c4',
+              'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
               'X-RapidAPI-Host': 'news-api14.p.rapidapi.com'
             }
           };

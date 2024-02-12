@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../utils/AuthContext';
-import codepinklogowhite from '../images/codepinklogowhite.png';
+import Group_1 from '../images/Group_1.png';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -17,13 +17,13 @@ const Navbar = () => {
   }, [isAuthenticated, username]);
 
   return (
-    <nav className="bg-beige-800 p-4 shadow-md">
+    <nav className="bg-blue-200 p-4 shadow-md">
       <div className="container mx-auto flex items-center justify-between">
         
         <div></div>
         <div>
           <Link to="/">
-            <img src={codepinklogowhite} alt="Code Pink Logo" className="mx-auto h-8" />
+            <img src={Group_1} alt="Code Pink Logo" className="mx-auto h-8" />
           </Link>
         </div>
         <ul className="flex space-x-4">

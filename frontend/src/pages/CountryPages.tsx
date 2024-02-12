@@ -35,7 +35,7 @@ const photoCards = [
 const CountryPage: React.FC = () => {
   return (
     <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-      <h1 className="text-4xl font-bold mb-8">Track COP sustainability metrics and news by each country</h1>
+      <h1 className="text-4xl font-bold mb-8 color-darkblue">Track COP sustainability metrics and news by each operation location</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
         {photoCards.map((card) => (
           <Link to={card.linkTo} key={card.id} className="block">

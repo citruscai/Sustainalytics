@@ -7,8 +7,8 @@ const locations = [
       lat: 61.8071431764385,
       lng: -150.16892929440104,
       name: "ConocoPhillips Alaska",
-      data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies2.
-      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems3.
+      data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies.
+      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems.
       Engaging with local stakeholders, including Indigenous peoples, to understand their values and interests, and contributing to economic and social opportunities.
       Implementing innovative technologies that reduce the environmental footprint of its activities, such as extended reach drilling.`
     },
@@ -17,7 +17,7 @@ const locations = [
       lng: -114.0694294571235,
       name: "ConocoPhillips Canada",
       data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies2.
-      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems3.
+      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems.
       Engaging with local stakeholders, including Indigenous peoples, to understand their values and interests, and contributing to economic and social opportunities4.
       Implementing a Reconciliation Action Plan to promote respect, relationships, and opportunities for Aboriginal and Torres Strait Islander peoples.`
     },
@@ -34,8 +34,8 @@ const locations = [
       lat: 29.789574159754785,
       lng: -95.6170531152436,
       name: "ConocoPhillips Houston",
-      data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies2.
-      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems3.
+      data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies.
+      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems.
       Engaging with local stakeholders, including communities, landowners, and regulators, to understand their values and interests, and contributing to economic and social opportunities4.
       Supporting safer communities in the Houston area through education, road safety, healthcare, housing and workforce development initiatives4.
       Preserving more than 500 existing trees and the surrounding landscape at the former ConocoPhillips campus in Houston’s Energy Corridor, which is being redeveloped into a mixed-use district5.`
@@ -44,8 +44,8 @@ const locations = [
       lat: 4.672354673317317,
       lng: -74.05202514980657,
       name: "ConocoPhillips Colombia",
-      data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies2.
-      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems3.
+      data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies.
+      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems.
       Engaging with local stakeholders, including communities, landowners, and regulators, to understand their values and interests, and contributing to economic and social opportunities.
       Implementing a Reconciliation Action Plan to promote respect, relationships, and opportunities for Indigenous peoples.`
     },
@@ -53,7 +53,7 @@ const locations = [
       lat: 28.3113,
       lng: 19.9354,
       name: "ConocoPhillips Libya",
-      data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies2.
+      data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies.
       Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems.
       Engaging with local stakeholders, including communities, landowners, and regulators, to understand their values and interests, and contributing to economic and social opportunities.
       Implementing a Reconciliation Action Plan to promote respect, relationships, and opportunities for Indigenous peoples.`
@@ -62,8 +62,8 @@ const locations = [
       lat: 61.83193829513069,
       lng: 6.215427286651343,
       name: "ConocoPhillips Norway",
-      data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies2.
-      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems3.
+      data: `Reducing greenhouse gas emissions and flaring from its operations, and supporting the development of low-carbon technologies.
+      Managing water use and waste disposal, and minimizing impacts on biodiversity and ecosystems.
       Engaging with local stakeholders, including communities, landowners, and regulators, to understand their values and interests, and contributing to economic and social opportunities4.
       Implementing a Reconciliation Action Plan to promote respect, relationships, and opportunities for Indigenous peoples.`
     },
@@ -89,7 +89,7 @@ const locations = [
       lat: 3.1568,
       lng: 101.7132,
       name: "ConocoPhillips Malaysia",
-      data: `Community: enhancing the quality of life and promoting education in the rural areas of Sabah and Sarawak through partnerships with MACEE and MyKasih Foundation2.
+      data: `Community: enhancing the quality of life and promoting education in the rural areas of Sabah and Sarawak through partnerships with MACEE and MyKasih Foundation.
       Health, Safety and Environment: managing water use and waste disposal, minimizing impacts on biodiversity and ecosystems, and implementing innovative technologies that reduce the environmental footprint of its activities.
       People: progressing the journey toward a diverse, equitable and inclusive work environment for a healthier and productive workforce.`
     },

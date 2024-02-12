@@ -57,8 +57,10 @@ const LoginPage: React.FC = () => {
         </Alert>
       </Stack>
     )}
+    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-100">
 
-      <div className="max-w-md w-full bg-white rounded-lg shadow-md p-8">
+   
+      <div className="max-w-md w-full bg-white rounded-lg shadow-md flex flex-col  p-8">
         <form className="space-y-6" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="username" className="text-sm font-medium text-gray-700">Username</label>
@@ -91,6 +93,7 @@ const LoginPage: React.FC = () => {
             Don't have an account? <Link to="/signup" className="text-indigo-600 hover:text-indigo-500">Register here</Link>
           </div>
         </form>
+      </div>
       </div>
     </>
   );

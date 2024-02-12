@@ -41,6 +41,7 @@ const CanadaPage: React.FC = () => {
         </div>
       </div>
       <div className="flex flex-col min-h-screen">
+      <h1 className='text-4xl font-bold animate-bounce color-darkblue text-center'>News Tracker:</h1>
         <CanadaNews />
       </div>
     </div>

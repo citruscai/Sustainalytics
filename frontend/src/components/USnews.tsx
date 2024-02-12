@@ -18,7 +18,7 @@ const Usnews: React.FC = () => {
             publisher: 'cnn.com,theguardian.com,washingtonpost.com'
           },
           headers: {
-            'X-RapidAPI-Key': '2a74062f3cmsh3a5187c270e88d2p1c461cjsne42e916569c4', 
+            'X-RapidAPI-Key': process.env.REACT_APP_API_KEY, 
             'X-RapidAPI-Host': 'news-api14.p.rapidapi.com'
           }
         };

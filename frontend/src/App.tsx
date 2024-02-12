@@ -7,8 +7,6 @@ import SignupPage from './pages/SignupPage';
 import LoginPage from './pages/LoginPage';
 import LandingPage from './pages/LandingPage';
 import ActivityDisplayPage from './pages/ActivityDisplay';
-import CropRecommender from './pages/Recommend';
-import Recommend from './pages/Recommend';
 import UsPage from './pages/UsPage';
 import CanadaPage from './pages/CanadaPage';
 import NorwayUkPage from './pages/NorwayUkPage';
@@ -32,7 +30,6 @@ function App() {
           <Route path="/" element={<LandingPage/>}/>
           <Route path="/activity" element={<ActivityDisplayPage/>}/>
           <Route path="/home" element={<LandingPage />} />
-          <Route path="/rec" element={<Recommend/>}/>
           <Route path="/uspage" element={<UsPage/>}/>
           <Route path="/canadapage" element={<CanadaPage/>}/>
           <Route path="/norwayukpage" element={<NorwayUkPage/>}/>

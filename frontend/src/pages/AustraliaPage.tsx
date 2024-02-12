@@ -29,7 +29,7 @@ const AustraliaPage: React.FC = () => {
     <div>
     <h1 className="text-center mb-6">ConocoPhillips Australia</h1>
     <div className="flex justify-center gap-10 mb-10">
-      <div className="w-1/2">
+      <div className="w-1/2"  >
         <Bar data={emissionsData} />
       </div>
       <div className="w-1/2">
@@ -41,7 +41,7 @@ const AustraliaPage: React.FC = () => {
     </div>
 
     <div className="flex flex-col min-h-screen">
-        <h1>News Tracker:</h1>
+        <h1 className='text-4xl font-bold animate-bounce color-darkblue text-center'>News Tracker:</h1>
       <AustraliaNews />
     </div>
   </div>
@@ -49,4 +49,3 @@ const AustraliaPage: React.FC = () => {
 }
 
 export default AustraliaPage;
-// Path: frontend/src/pages/AustraliaPage.tsx
