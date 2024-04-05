@@ -1,4 +1,10 @@
+# PROBLEM 
+Create an applications that would track/monitor sustainability by geographical locations that is managed/run by ConocoPhillips
+
+
+
 # HOW TO RUN
+
 
 ## First steps
 1. click code
