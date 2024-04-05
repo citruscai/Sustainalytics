@@ -3,7 +3,7 @@
 ## First steps
 1. click code
 2. copy HTTPS link
-3. make sure you installed git, go to your terminal and type in ```git clone https://github.com/citruscai/codepink.git```
+3. make sure you installed git, go to your terminal and type in ```git clone https://github.com/citruscai/Sustainalytics.git```
 
 Once the folder is cloned, you will need to go cd into the directory of the cloned folder and open TWO command windows
  
